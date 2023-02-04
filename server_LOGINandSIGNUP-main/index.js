@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 app.use(authRouter);
 
-const DB = "mongodb+srv://Admin:proWFVB0eF9EGO1O@cluster0.ukjlf0a.mongodb.net/?retryWrites=true&w=majority";
+const DB = "mongoURL";
 
 mongoose.connect(DB).then(() =>
     console.log('CONNECTED TO DB')
