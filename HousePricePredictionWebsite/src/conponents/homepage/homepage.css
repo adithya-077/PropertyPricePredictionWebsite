@@ -1,0 +1,37 @@
+.homepage-main{
+    padding: 10px;
+    text-align: center;
+}
+
+.predict-button{
+    height: 100px;
+    width: 500px;
+    border-radius:80px;
+    background-color:#d0dddf ;
+    transition :all,2s;
+    font-size: 35px;
+    font-family: Major Mono Display;
+    
+}
+
+.predict-button:hover{
+    background: linear-gradient(to left, black 50%, #d0dddf 50%) right;
+    background-size: 200% 100%;
+}
+
+.predict-button:hover {
+    color: #d0dddf;
+}
+
+@media (max-width: 600px){
+    .predict-button{
+        width: 70vw;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 600px){
+    .predict-button{
+        display: none;
+    }
+}

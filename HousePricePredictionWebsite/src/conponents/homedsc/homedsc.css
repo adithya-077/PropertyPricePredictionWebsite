@@ -1,0 +1,124 @@
+.homedsc-main{
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    
+}
+
+.homedsc-main  .page-title{
+    font-size:90px; 
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    margin: 0px;
+    width: 100%;
+    
+} 
+
+.page-title h1{
+    margin-bottom: 50px;  
+    color: rgb(235, 225, 225);
+} 
+
+.homedsc-main  .page-disc{
+    font-size:40px; 
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #c0f4f8;
+    text-align: center;
+} 
+
+
+.image-div{
+    display: flex;
+    flex-direction: row;
+
+
+}
+.imgtext{
+    text-align: left;
+    display:flex;
+    flex-direction: row;
+    background-color: #d0dddf;
+    border: black solid 1px;
+    border-radius: 60px;
+    padding: 60px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    transition :all,1s;
+}
+.imgtext h1{
+    font-size:40px; 
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 55px;
+    color: rgb(83, 74, 74); 
+    transition :all,2s;
+
+    
+}
+
+.homepage-img{
+    width: 40vw;
+    height: 50vh;
+}
+
+.textcol{
+    display: flex;
+    flex-direction: column;
+}
+ 
+.imgtext:hover{
+    background: linear-gradient(to left, black 50%, #d0dddf 50%) right;
+    background-size: 200% 100%;
+    
+}
+
+.imgtext:hover h1{
+    color: #d0dddf;
+
+    
+}
+
+.uniqueText{
+    color:rgb(83, 74, 74);
+    background: none;
+}
+
+@media (max-width: 1260px){
+    .imgtext:nth-child(odd){
+        flex-direction: column-reverse;
+        align-items: center;
+
+    }
+    .imgtext:nth-child(even){
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
+@media (max-width: 750px){
+    .homedsc-main{
+        padding: 0;
+    }
+    .imgtext{
+        margin-bottom: 0;
+        border-radius: 0;
+    }
+    .homedsc-main  .page-title{
+        font-size:50px; 
+        
+        
+    } 
+    .homepage-img{
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media (max-width:460px) {
+    .homepage-img{
+        width: 60vw;
+        height: 200px;
+    }
+}
+
+

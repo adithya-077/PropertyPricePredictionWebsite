@@ -1,0 +1,26 @@
+.Login-main{
+    background: transparent;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+}
+
+.login-content{ 
+    background: #d0dddf;
+    border: 1px solid ;
+    border-radius: 30px;
+    margin: 20px;
+    width: 50%;
+    justify-content: center;
+}
+
+.login-content .to-signup{
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    text-align: center;
+}
+

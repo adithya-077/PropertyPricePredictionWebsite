@@ -1,0 +1,27 @@
+.footer-main{
+    padding: 50px;
+    font-size:20px; 
+    font-family: 'Roboto Condensed', sans-serif;
+    border-top: 1px solid black;
+
+}
+
+.footer-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(235, 225, 225);
+}
+
+.row2 .ultext{
+    text-decoration:underline;
+
+}
+
+@media (max-width:520px) {
+    .footer-row{
+        flex-direction: column;
+
+    }
+    
+}

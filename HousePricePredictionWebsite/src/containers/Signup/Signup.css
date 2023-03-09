@@ -1,0 +1,21 @@
+.main-bg{
+    background: transparent;
+    height: 100vh;
+    
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    background: #d0dddf;
+    margin: 5%;
+    border: 1px solid ;
+    border-radius: 23px;
+    flex-direction: column;
+}
+.main-bg .to-login{
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+
+}

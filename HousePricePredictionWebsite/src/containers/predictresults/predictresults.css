@@ -1,0 +1,16 @@
+.Pred-main{
+    background-color: #251749;
+    background-image: linear-gradient(62deg, #251749 10%, #1f42aa 100%);
+    height: 100vh;
+}
+
+.pred-content{
+    justify-content: space-between;
+    align-items:inherit;
+    display: flex;
+    flex-direction: row;
+    height: 85%;
+
+}
+
+
