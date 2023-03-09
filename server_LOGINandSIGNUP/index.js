@@ -1,7 +1,9 @@
 const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
+const   dotenv = require('dotenv');
 const authRouter = require("./routes/auth");
+dotenv.config()
 
 const PORT = process.env.PORT || 7000;
 const app = express();
@@ -10,8 +12,7 @@ app.use(cors());
 app.use(express.json());
 app.use(authRouter);
 
-const DB =
-  "mongodb+srv://Admin:proWFVB0eF9EGO1O@cluster0.ukjlf0a.mongodb.net/?retryWrites=true&w=majority";
+const DB = process.env.MONGO_URL
 
 mongoose.connect(DB).then(() => console.log("CONNECTED TO DB"));
 
