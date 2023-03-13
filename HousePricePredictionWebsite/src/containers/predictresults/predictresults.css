@@ -14,3 +14,9 @@
 }
 
 
+@media screen and (max-width: 890px) {
+.pred-content{
+    display: flex;
+    flex-direction: column; 
+}
+}

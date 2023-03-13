@@ -82,8 +82,8 @@ function savepred(e){
           {loclist}
         </select >
         <div className='divider'></div>
-        <button className='login-button' onClick={predictfun}>Predict</button>
-        <button className='login-button' onClick={savepred}>Save</button>
+        <button className='pbutton' onClick={predictfun}>Predict</button>
+        <button className='pbutton' onClick={savepred}>Save</button>
         {predprice && <p className='priceop'>{predprice.Price} Lakhs</p>}
         </form>
       </div>

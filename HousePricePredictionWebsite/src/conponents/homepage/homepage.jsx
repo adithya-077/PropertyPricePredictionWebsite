@@ -7,7 +7,7 @@ const Homepage = (props) => {
   let navi = useNavigate();
   return (
     <div className="homepage-main">
-      <button className="predict-button" onClick={() => navi("/")}>
+      <button className="predict-button" onClick={() => navi("/PredictResults")}>
         {props.title}
       </button>
     </div>

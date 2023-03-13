@@ -1,10 +1,12 @@
 .cards-divpb{
     overflow:scroll;
-    height: 90%;
+    height: calc(80vh - 20px);
+    scrollbar-width: none;
 }
 .cards-divpb::-webkit-scrollbar{
     display: none;
 }
+
 
 .each-cardpb {
     display: flex;
@@ -19,8 +21,7 @@
     
     
 }
-.each-cardpb:hover {
-    transform: scale(1.1);
+.each-cardpb:hover {    
     cursor: pointer;
     color: white;
     flex-direction: column;

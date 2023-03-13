@@ -77,3 +77,10 @@
 #subtitle{
     color: rgb(83, 83, 82);
 }
+
+@media screen and (max-width: 890px) {
+    .cards-container{
+        height: 100vh;
+            }
+        
+        }
