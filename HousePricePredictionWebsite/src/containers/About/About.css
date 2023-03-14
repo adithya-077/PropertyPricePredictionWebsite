@@ -4,81 +4,81 @@
   display: flex;
   flex-direction: column;
   padding: 20px;
-  align-items: start;
+  align-items: flex-start;
 }
 
 .input-container {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 .input-container input {
-    width: min(100%, 500px) !important;
-    border: 0;
-    font-size: 20px;
-    border-radius: 10px;
-    padding: 10px;
-    font-weight: 500;
-    background: #d0dddf;
+  width: min(100%, 500px) !important;
+  border: 0;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 500;
+  background: #d0dddf;
 }
 
 .main-hub {
   margin-top: 10px;
   font-size: 20px;
-    height: calc(80vh - 20px);
+  height: calc(80vh - 20px);
   border-radius: 10px;
   padding: 0px;
   font-weight: 500;
   background: #d0dddf;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .about-para-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 15px;
-    overflow: scroll;
-    scrollbar-width: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 15px;
+  overflow: scroll;
+  scrollbar-width: none;
 }
 
 .about-para-container::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 .about-para-container h4 {
-    font-size: 2rem;
-    margin: 0;
-    padding: 0;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
 }
 
 .about-para-container .info-box {
-    padding: 15px;
-    border-radius: 6px;
-    border: 3px solid rgba(0, 0, 255, 0.5);
-    color: rgba(0, 0, 255, 0.7);
-    background: rgba(0, 0, 255, 0.1);
-    font-size: 1.2rem;
+  padding: 15px;
+  border-radius: 6px;
+  border: 3px solid rgba(0, 0, 255, 0.5);
+  color: rgba(0, 0, 255, 0.7);
+  background: rgba(0, 0, 255, 0.1);
+  font-size: 1.2rem;
 }
 
 @media screen and (max-width: 860px) {
-    .main-hub {
-        grid-template-columns: 1fr;
-        height: 100%;
-    }
+  .main-hub {
+    grid-template-columns: 1fr;
+    height: 100%;
+  }
 }
 
 @media screen and (max-width: 500px) {
-    .about-para-container h4 {
-        font-size: 1.5rem;
-    }
-    .about-para-container .info-box {
-        font-size: 1rem;
-    }
+  .about-para-container h4 {
+    font-size: 1.5rem;
+  }
+  .about-para-container .info-box {
+    font-size: 1rem;
+  }
 }
 
 .maindiv-about {
