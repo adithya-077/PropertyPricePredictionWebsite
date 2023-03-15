@@ -44,9 +44,19 @@
 }
 
 @media (max-width:720px) {
-    .navbar-contents {
+    .about-nav {
         display: none;        
     }
+    .predict-nav{
+        display: none; 
+    }
+    
+    
+}
+
+@media (max-width:520px) {
+    
+    
     
 }
 

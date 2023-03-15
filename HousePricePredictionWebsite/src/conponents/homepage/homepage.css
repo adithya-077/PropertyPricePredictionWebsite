@@ -23,15 +23,17 @@
     color: #d0dddf;
 }
 
-@media (max-width: 600px){
+@media (max-width: 1000px){
     .predict-button{
-        width: 70vw;
-        font-size: 25px;
+        width: 60%
+        
     }
 }
 
 @media (max-width: 600px){
     .predict-button{
-        display: none;
+        width: 55%;
+        height: 70%;
+        padding: 12px;
     }
 }

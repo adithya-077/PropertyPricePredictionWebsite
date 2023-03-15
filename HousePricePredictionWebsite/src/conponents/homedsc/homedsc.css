@@ -114,11 +114,39 @@
     }
 }
 
-@media (max-width:460px) {
+@media (max-width: 650px){
+    .homedsc-main  .page-title{
+        font-size:40px; 
+    } 
     .homepage-img{
         width: 60vw;
         height: 200px;
     }
+    .homedsc-main  .page-disc{
+        font-size:30px; 
+    } 
+    .imgtext h1{
+        font-size:30px; 
+        
+    }
+}
+
+@media (max-width:460px) {
+    .homedsc-main  .page-title{
+        font-size:40px; 
+    } 
+    .homepage-img{
+        width: 60vw;
+        height: 200px;
+    }
+    .homedsc-main  .page-disc{
+        font-size:30px; 
+    } 
+    .imgtext h1{
+        font-size:30px; 
+        
+    }
+
 }
 
 
